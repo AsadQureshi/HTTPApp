@@ -4,14 +4,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
  
-   <TextView
+  <TextView
         android:id="@+id/tvIsConnected"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"    
         android:background="#FF0000"
         android:textColor="#FFF"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:layout_marginBottom="5dp"
         android:text="is connected? " />
  
@@ -25,4 +25,5 @@
         <requestFocus />
     </EditText>
     
+     
 </LinearLayout>
